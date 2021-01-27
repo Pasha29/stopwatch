@@ -6,11 +6,7 @@ const Stopwatch = (props) => {
         <div className={s.wrapper}>
             <div className={s.container}>
             <div className={s.digitsWrapper}>
-                <span className={s.hours}>{props.timeFormat(props.time)}</span>
-                {/* <span>:</span>
-                <span className={s.minutes}>00</span>
-                <span>:</span>*/}
-                {/* <span className={s.seconds}>{props.time}</span>  */}
+                <span>{props.timeFormat(props.time)}</span>
             </div>
             
             <div className={s.btnsWrapper}>
